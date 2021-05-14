@@ -1,0 +1,17 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "frumpy4.timer.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "BossBarHudAccessor",
+        "MixinServerPlayerEntity",
+        "ServerPlayerAccessor"
+    ],
+    "client": [
+        "MixinInGameHud"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

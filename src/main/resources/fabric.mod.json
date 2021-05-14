@@ -1,0 +1,24 @@
+{
+    "schemaVersion": 1,
+    "id": "timer",
+    "version": "${version}",
+    "name": "Timer",
+    "description": "",
+    "authors": [],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/timer/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "frumpy4.timer.client.TimerClient"
+        ]
+    },
+    "mixins": [
+        "timer.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.11.3",
+        "minecraft": "1.16.1"
+    }
+}
